@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'RobotoCondensed-Black';
+    font-style: normal;
+    font-weight: 400;
+    src: local('../fonts/RobotoCondensed-Black.tff') format('tff');
+}
+
+body {
+    font-family: 'RobotoCondensed-Black';
+    margin: 0;
+    padding: 0;
+    background: url('https://tms-outsource.com/blog/wp-content/uploads/2019/02/luca-bravo-217276-unsplash.jpg') center/cover no-repeat fixed;
+    color: #fff;
+  }
+
+  header {
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #eee;
+    background-color: #000;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
+  nav a:hover {
+    background-color: #555;
+    color: #fff;
+  }
+
+  section {
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+ .col2 li{
+    display:block;
+    float:left;
+    width:49%;
+ }
+
+ .col2{
+    margin:0;
+    padding:0;
+ } 
+
+  .black-section {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+  }
+
+  .white-section {
+    background-color: #fff;
+    color: #333;
+    display: flex;
+  }
+
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #d9d9d9;
+}
+
+  .icons-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .icon img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .icon p {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  footer {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-links {
+    display: flex;
+    align-items: left;
+  }
+
+  .footer-links a {
+    margin-right: 10px;
+  }
